@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<InformationRegister uuid="7f7b3782-7db7-4e26-aa2e-14e6b435a5a3">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЗначенияСвойствОбъектов" category="Record">
+				<xr:TypeId>41eb0404-334e-4777-8d90-c2dc6ee0e07e</xr:TypeId>
+				<xr:ValueId>17a2f2f3-502b-450c-a131-4b12ecbca889</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЗначенияСвойствОбъектов" category="Manager">
+				<xr:TypeId>6cac51a8-55d3-46bd-80a5-25dde191d1f2</xr:TypeId>
+				<xr:ValueId>ecec2b6c-eaa4-4003-b69a-e3cad302d123</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЗначенияСвойствОбъектов" category="Selection">
+				<xr:TypeId>1980f44f-4055-4d2f-8b13-f8610c17987b</xr:TypeId>
+				<xr:ValueId>cee3945f-8611-4f19-a336-52a2b8e66974</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЗначенияСвойствОбъектов" category="List">
+				<xr:TypeId>af563968-fd5a-40ff-b826-92c42cc8dcff</xr:TypeId>
+				<xr:ValueId>8aa0bacd-403d-4b4a-8385-02616c0e7f85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЗначенияСвойствОбъектов" category="RecordSet">
+				<xr:TypeId>2ea0107e-1885-4b9f-9a93-7ae6fb7dba84</xr:TypeId>
+				<xr:ValueId>6a673999-8a80-4656-9b22-9fdca97dd85e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЗначенияСвойствОбъектов" category="RecordKey">
+				<xr:TypeId>08d91d8c-ede3-412f-a0de-5453ce162879</xr:TypeId>
+				<xr:ValueId>b37be871-6346-43e7-9a91-e08a0b50248d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЗначенияСвойствОбъектов" category="RecordManager">
+				<xr:TypeId>c82b4469-e73a-4c24-925f-b2f158c535c1</xr:TypeId>
+				<xr:ValueId>0bfc90f9-e456-44e5-a6e0-8863fb427f8b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗначенияСвойствОбъектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>91e3878b-1d4a-4ab4-9992-71ef6f28f383</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

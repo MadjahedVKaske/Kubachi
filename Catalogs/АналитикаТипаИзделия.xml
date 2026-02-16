@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="73eb6c29-9455-4513-b19e-84f6a2667cd7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АналитикаТипаИзделия" category="Object">
+				<xr:TypeId>48e798d8-e9a0-4813-b113-08521f3bc1e3</xr:TypeId>
+				<xr:ValueId>50f7e2f0-24dd-4d68-bd52-96cee211aedf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АналитикаТипаИзделия" category="Ref">
+				<xr:TypeId>7bb35beb-1ae9-4b66-b0dd-8599ab0db57a</xr:TypeId>
+				<xr:ValueId>f85546da-6f60-4e9e-87c9-a92937d9942f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АналитикаТипаИзделия" category="Selection">
+				<xr:TypeId>a0c221ce-b2d6-4bde-9726-68bb3825d4dc</xr:TypeId>
+				<xr:ValueId>96782cef-52af-4f67-835b-5aed2342378e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АналитикаТипаИзделия" category="List">
+				<xr:TypeId>b71327d1-add1-491e-888b-db51cf9f567c</xr:TypeId>
+				<xr:ValueId>bdea13f9-bbdd-4739-a143-904d1f2898b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АналитикаТипаИзделия" category="Manager">
+				<xr:TypeId>9a22b253-f479-45d5-8cbd-d0ff5573783d</xr:TypeId>
+				<xr:ValueId>8d8788d4-c930-4284-ace8-86f5485a77ab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АналитикаТипаИзделия</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bfc3167a-04b5-4ca3-acc4-5d8ecf8ade79</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

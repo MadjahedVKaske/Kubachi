@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="ab8414bf-39c9-45c6-8a45-9bb73b126179">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УдалитьВидыКодировокиИзделий" category="Object">
+				<xr:TypeId>28ef062b-75a5-42b9-8c07-3155f55c79e9</xr:TypeId>
+				<xr:ValueId>d2f9a11e-1efe-4498-b3c2-b14ce92c1f78</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УдалитьВидыКодировокиИзделий" category="Ref">
+				<xr:TypeId>43c79425-405d-47d2-9724-631ab647d80f</xr:TypeId>
+				<xr:ValueId>b460cf99-9d53-4069-9736-f48b654b3e6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УдалитьВидыКодировокиИзделий" category="Selection">
+				<xr:TypeId>c9bdd1de-7373-4ef8-8327-0eea353c9bdb</xr:TypeId>
+				<xr:ValueId>07886313-45ed-4871-839f-188d77348c27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УдалитьВидыКодировокиИзделий" category="List">
+				<xr:TypeId>972257a3-df98-41ae-ac5d-034e55bcd347</xr:TypeId>
+				<xr:ValueId>0589664a-0387-434d-bd02-4314ac3cb57f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УдалитьВидыКодировокиИзделий" category="Manager">
+				<xr:TypeId>03481b2f-769d-4164-8f3d-982754ee2466</xr:TypeId>
+				<xr:ValueId>3cdaede1-dbdd-4e17-97e1-e31217bfafc2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УдалитьВидыКодировокиИзделий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>00ccf48d-e475-4910-a5df-c6d011c850cb</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

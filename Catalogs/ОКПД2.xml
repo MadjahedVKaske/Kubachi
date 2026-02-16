@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="3994d588-5336-4da5-9017-de3ec945ad0a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОКПД2" category="Object">
+				<xr:TypeId>ab7e92cb-d247-4645-bfa3-c24d5b89db97</xr:TypeId>
+				<xr:ValueId>76efb0c5-2570-4f65-b160-40cffd8db7dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОКПД2" category="Ref">
+				<xr:TypeId>012dc9e1-d3ae-4ad4-af75-b8df31f4c791</xr:TypeId>
+				<xr:ValueId>26f85a54-4665-4fc2-8502-61fea70905eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОКПД2" category="Selection">
+				<xr:TypeId>1f9fd8a0-480d-435e-9ed0-85077dda7160</xr:TypeId>
+				<xr:ValueId>440e44aa-9bb9-4d65-9ceb-b7f06201590c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОКПД2" category="List">
+				<xr:TypeId>1ebf6f07-56c9-4f7c-a715-beed121c9b4b</xr:TypeId>
+				<xr:ValueId>c68609a0-79f7-4df0-8303-c752d8088818</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОКПД2" category="Manager">
+				<xr:TypeId>490eed6c-6185-4b13-b4dd-0526bd7c90ea</xr:TypeId>
+				<xr:ValueId>cf52fb23-99c5-429f-a0b4-2105376b28a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОКПД2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8ae32968-67e9-479b-aeed-b9cb07763b49</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="58a133f8-c2b3-45da-8e2a-6efc923c9c94">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КодыВидовТоваров" category="Object">
+				<xr:TypeId>c32bf47f-9dda-4a08-b1dc-c4f637b02134</xr:TypeId>
+				<xr:ValueId>e17f3112-3dc9-4596-99e4-28d527ed3964</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КодыВидовТоваров" category="Ref">
+				<xr:TypeId>ba3f7746-e1dc-4eff-9492-ad876581f7aa</xr:TypeId>
+				<xr:ValueId>4372f481-06d1-4971-8e09-08e00c75c7e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КодыВидовТоваров" category="Selection">
+				<xr:TypeId>9821347c-04a9-4a84-875e-a96645200a08</xr:TypeId>
+				<xr:ValueId>7fb55788-95c8-4d99-825f-db6d6c85592d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КодыВидовТоваров" category="List">
+				<xr:TypeId>213bf370-ecf7-49ee-98c3-ba71c5d4236e</xr:TypeId>
+				<xr:ValueId>f33b68eb-f8ff-4a47-bb80-a2913ee71e1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КодыВидовТоваров" category="Manager">
+				<xr:TypeId>400120a9-5215-4ba7-9ac6-f20d48f789ae</xr:TypeId>
+				<xr:ValueId>8109f6fe-2926-481b-a3bc-389240d1b092</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КодыВидовТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f69e29f1-8424-4b0c-9def-834b74530401</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

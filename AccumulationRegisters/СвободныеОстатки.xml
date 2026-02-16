@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AccumulationRegister uuid="d1817601-0784-4eb1-8af8-764e09c48307">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.СвободныеОстатки" category="Record">
+				<xr:TypeId>5f5b6213-d08c-46ff-a589-2c3dbd716cb2</xr:TypeId>
+				<xr:ValueId>16dab760-1471-4ee5-a3e5-05fd14151f10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.СвободныеОстатки" category="Manager">
+				<xr:TypeId>c21250e6-fd80-4102-8b2e-4c2a71257b9f</xr:TypeId>
+				<xr:ValueId>76e1d138-79b5-41c5-9f19-51989b891728</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.СвободныеОстатки" category="Selection">
+				<xr:TypeId>71aacbc8-629f-4edf-9a99-4eb6bc2adfff</xr:TypeId>
+				<xr:ValueId>496aa6d2-3c5d-4676-adcb-394ab7dfb8d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.СвободныеОстатки" category="List">
+				<xr:TypeId>ad355489-9e21-40b5-82cc-4d4bdb0acd5f</xr:TypeId>
+				<xr:ValueId>2456c278-4f66-41c2-9651-4cdc705e2fe7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.СвободныеОстатки" category="RecordSet">
+				<xr:TypeId>9d107b02-9bd4-40c0-b48d-fe1d7c218749</xr:TypeId>
+				<xr:ValueId>bb48b5f3-ede2-4052-bce2-86ca4a4ed139</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.СвободныеОстатки" category="RecordKey">
+				<xr:TypeId>f27e6002-9779-4836-a911-42bb2c476097</xr:TypeId>
+				<xr:ValueId>bf240058-7ebb-4ecd-ac07-d54c60877d25</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СвободныеОстатки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f030939f-ea11-4571-9fe1-350470ae6ce9</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

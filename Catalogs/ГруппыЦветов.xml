@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="a0e3b5ff-8582-456c-9ebe-5b446b31a76f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыЦветов" category="Object">
+				<xr:TypeId>00ea306c-d6c0-481e-a1f5-8864ec50d961</xr:TypeId>
+				<xr:ValueId>bd9dba72-bcfd-4406-b46b-88f56f1201e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыЦветов" category="Ref">
+				<xr:TypeId>57bd3ef0-1e0d-49d2-ae8d-984874ef81d9</xr:TypeId>
+				<xr:ValueId>dce8ecd0-034e-4386-85c0-ca6ebf5d7437</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыЦветов" category="Selection">
+				<xr:TypeId>9020415c-f41f-4df2-81de-ce9f5ef87f99</xr:TypeId>
+				<xr:ValueId>89c74200-d620-4acb-93f1-be545848866d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыЦветов" category="List">
+				<xr:TypeId>d1d748f9-f621-4bae-94cc-200a3892c98a</xr:TypeId>
+				<xr:ValueId>8a464990-6523-4614-8450-ae942f6004f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыЦветов" category="Manager">
+				<xr:TypeId>84d451fa-1e68-4b04-95dd-6935d116aa53</xr:TypeId>
+				<xr:ValueId>4165b893-d903-4346-9390-ea80c065631b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыЦветов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>66be1283-3401-4adf-a851-d7b218fcfa19</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

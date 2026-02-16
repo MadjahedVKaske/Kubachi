@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="cb7ac3b4-f71a-4518-abb0-f155148bb80b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ФормыОгранки" category="Object">
+				<xr:TypeId>0a87483e-1ea9-4cfe-a80a-509c551f1821</xr:TypeId>
+				<xr:ValueId>497f33e4-78f2-4f14-9e45-b10f81b92279</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ФормыОгранки" category="Ref">
+				<xr:TypeId>df94a4ed-1fa1-46fc-a9b7-92a77bf753e2</xr:TypeId>
+				<xr:ValueId>6ad2815e-3be7-4a3c-8853-d2a1f6a6d185</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ФормыОгранки" category="Selection">
+				<xr:TypeId>c3a77daa-d175-4d36-8469-603e306ce0cd</xr:TypeId>
+				<xr:ValueId>7634e276-f5e6-40ea-9e17-1caa2618a439</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ФормыОгранки" category="List">
+				<xr:TypeId>46e3b732-c1f0-4d6e-ae17-9567f10d4213</xr:TypeId>
+				<xr:ValueId>0cd166f0-507a-46d6-8bde-255589b63d2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ФормыОгранки" category="Manager">
+				<xr:TypeId>f53cf66e-fb2a-47e0-adbe-a2ae94fe2943</xr:TypeId>
+				<xr:ValueId>491e79ae-db2b-4cbd-9f17-9b714daf2843</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФормыОгранки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5fe90a17-7827-48dd-8303-abb23ff839f1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

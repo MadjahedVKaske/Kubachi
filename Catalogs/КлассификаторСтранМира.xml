@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="a6f1ecc3-9347-4238-8399-ff7068b9a4fc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторСтранМира" category="Object">
+				<xr:TypeId>657558d0-ac85-4e96-9615-9b2f4c3157a0</xr:TypeId>
+				<xr:ValueId>9c566e19-eefa-49b5-a095-b4c51be2ba51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторСтранМира" category="Ref">
+				<xr:TypeId>ed0fe4f7-592a-485d-98b3-ce2a114ab5c6</xr:TypeId>
+				<xr:ValueId>9f6fe6c2-8aba-428c-8e00-a21ed31349cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторСтранМира" category="Selection">
+				<xr:TypeId>0aa169ad-9bff-4239-a047-8901790b32d5</xr:TypeId>
+				<xr:ValueId>b517e1ff-da0d-4b51-8b3e-a31e3c587831</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторСтранМира" category="List">
+				<xr:TypeId>d887c460-a698-43ea-b803-c5090908004d</xr:TypeId>
+				<xr:ValueId>5b96e53d-4267-46d5-8a65-86053c062896</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторСтранМира" category="Manager">
+				<xr:TypeId>6ca528de-8c98-487b-bfce-02f187bd2026</xr:TypeId>
+				<xr:ValueId>48df14a7-ce83-422e-bf48-8f15f828d23c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторСтранМира</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cbff5cae-000b-48e6-a638-3b88dc145f37</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

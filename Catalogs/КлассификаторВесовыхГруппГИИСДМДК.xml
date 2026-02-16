@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="aa84070e-02bc-4f43-9320-2b1f8453c42a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторВесовыхГруппГИИСДМДК" category="Object">
+				<xr:TypeId>54289472-541c-47d2-bc64-6b849fb1929c</xr:TypeId>
+				<xr:ValueId>9b841ba5-5336-40bd-bfac-3b69574125b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторВесовыхГруппГИИСДМДК" category="Ref">
+				<xr:TypeId>4a8e146d-a889-4b9a-a834-f1f0083996e5</xr:TypeId>
+				<xr:ValueId>7207731b-3c16-46c1-b4eb-ece3593fc3a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторВесовыхГруппГИИСДМДК" category="Selection">
+				<xr:TypeId>cef1686b-8e42-4d3b-b428-deedfa7e1638</xr:TypeId>
+				<xr:ValueId>aa103a1f-4ec2-4f28-b350-55458cf9b8f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторВесовыхГруппГИИСДМДК" category="List">
+				<xr:TypeId>23464e84-5353-47da-8d15-878220f36a75</xr:TypeId>
+				<xr:ValueId>c8c3d0f4-58df-43a6-9c1c-86f7f1d1d8bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторВесовыхГруппГИИСДМДК" category="Manager">
+				<xr:TypeId>6fdf674d-f617-4be1-881b-24447ef4b992</xr:TypeId>
+				<xr:ValueId>a93f5216-1990-4e16-838a-30520b8b49ea</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторВесовыхГруппГИИСДМДК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cc443184-b07a-4b58-bab0-a7bc9f25f64f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

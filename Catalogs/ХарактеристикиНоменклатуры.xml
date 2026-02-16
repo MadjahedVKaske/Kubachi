@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="4a46fdd7-bfa9-476a-a68e-039a83ca935d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ХарактеристикиНоменклатуры" category="Object">
+				<xr:TypeId>31911088-7e5e-4a48-83eb-5c99867ab3ee</xr:TypeId>
+				<xr:ValueId>4e9176fd-b9fd-478d-9c65-78cfd66432d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ХарактеристикиНоменклатуры" category="Ref">
+				<xr:TypeId>2e38b2b1-81c5-427f-9e9a-eb94d04a5a4b</xr:TypeId>
+				<xr:ValueId>5fe0ae3f-b807-42b8-8f44-7899e59ead96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ХарактеристикиНоменклатуры" category="Selection">
+				<xr:TypeId>b3a504d9-77d1-43f2-bf33-2d884e076245</xr:TypeId>
+				<xr:ValueId>f5bd345f-f761-402a-a9ca-752baf576061</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ХарактеристикиНоменклатуры" category="List">
+				<xr:TypeId>eec0d5d7-c030-4018-9143-136b48d5bb5b</xr:TypeId>
+				<xr:ValueId>c95e7784-424b-4983-8d00-9d644748faaf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ХарактеристикиНоменклатуры" category="Manager">
+				<xr:TypeId>f66dda5f-c6c2-445c-bd69-062093d4e480</xr:TypeId>
+				<xr:ValueId>150bded7-fc5f-406c-810e-6fba4b54b176</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХарактеристикиНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f2aece6c-765d-4274-a63a-c825abe61655</ExtendedConfigurationObject>
+			<CodeLength>10</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8be5c0ff-66c0-4fd7-b43f-1c0c6f2844ef">
+				<Properties>
+					<Name>B1_ДопАртикулДляВБ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп артикул для Wildberries</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4cba04b7-21fe-4f52-bcd8-02b18c61c3d6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВесКамнейГИИСДМДК</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>efbc9bda-e03a-4ce4-81dd-2ccf08756dcf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e5ed6f34-d34b-4e7b-bae9-5197551269d6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПолноеНаименование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fe262288-e8ba-49e3-8760-dd98bd1f1061</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b2fa7056-74e8-4a77-a41e-960a531c6d5d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВесКамней</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2d74f479-449e-4603-9546-689c99327e56</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="85c121ec-7246-4991-82ba-8025cf02d877">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаполненыДанныеДляГИИСДМДК</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a16e310c-af81-45ad-86a9-a5444f556d8e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ОписаниеСпецификацииХарактеристикДляВводаОстатковГИИСДМДК</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1ffb8f62-4418-4b87-856f-1b5a32b5922e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоличествоДрагоценныхКамней</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d009cee9-bf0c-46e4-be51-f1e06485764e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8965f183-6c6b-4c7a-8f9c-934d1c1ece17">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Покрытие</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b8a5c9be-3bc2-47c3-af5b-5f83f90bf426</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Покрытие</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="97526341-79fa-47d8-9950-8784c2ffc132">
+				<Properties>
+					<Name>B1_АртикулВБ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул Wildberries</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>16</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=""; ЧГ=0</v8:content>
+						</v8:item>
+					</Format>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=""; ЧГ=0</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="740031c2-f125-42c4-aa40-482f061a98da">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ХарактеристикиНоменклатуры.ДополнительныеМатериалы" category="TabularSection">
+						<xr:TypeId>5671c7a2-f07c-4153-885f-6b733806b4e2</xr:TypeId>
+						<xr:ValueId>71a3551a-695c-4058-82c5-76966ebc0177</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ХарактеристикиНоменклатуры.ДополнительныеМатериалы" category="TabularSectionRow">
+						<xr:TypeId>cff656b0-1866-4607-b0e8-f981b93fc888</xr:TypeId>
+						<xr:ValueId>87a1f162-6c78-4bc7-9c79-d6594d812ef2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныеМатериалы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c94456a8-91dc-4bb1-bed4-8d5921a4b61f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a85095c1-88e5-426b-b6ff-95f9619e3362">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Вес</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8b4a8830-4d66-4acf-9fc4-fa7440e9a91d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>5</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3e2ef86e-9540-48fc-a67e-d735831b7538">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Материал</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>af3dbdea-b4e1-4b56-8a15-4501eadb9c67</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Пробы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="9e8b4ee0-c778-4783-96c6-824f3e638abf">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ХарактеристикиНоменклатуры.Спецификация" category="TabularSection">
+						<xr:TypeId>31172677-ef59-455f-b2e4-31b7903ec52a</xr:TypeId>
+						<xr:ValueId>f73cc896-5a9a-4f3c-9ff0-bbb41ce67515</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ХарактеристикиНоменклатуры.Спецификация" category="TabularSectionRow">
+						<xr:TypeId>acb13dd6-43b2-467b-9dad-2a2a86e8ba9c</xr:TypeId>
+						<xr:ValueId>b1ca977a-c178-4034-b290-254d667e43b9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Спецификация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0a3d4f4f-08eb-48dc-a9a2-21bb603e6123</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="dfba07ff-3b6a-42aa-9f4f-e9c547abf8bc">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Размер3</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7109a051-6d90-48c1-962d-d0fff7f72ba2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0b968f29-0ab4-4e62-95f1-3105e6f3a17c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Количество</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>409f2d6c-8ba3-48dc-83e5-715664e0ba7b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="07feaef3-e3bc-4b20-ac69-c3d213d8bd07">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Размер1</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6369964f-942b-47ad-9a93-2cefa31942ff</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="87d06aa7-151b-4135-97c5-a611673d1a08">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>574f11c8-eab9-4658-af39-fd53d5adc5da</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d868fdcf-1a65-41b0-a3ee-c003af62289a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ГруппаЦвета</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4c45aeb9-1f1f-4f18-997c-804c106e8ee2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ГруппыЦветов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e1bcd823-e10a-4418-9c88-34fd181282d9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Размер2</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d963dfe9-a6b9-4269-b54c-2c19b05ef9c2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9fe529b5-74ac-4e44-a10e-fb47e3da27b2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Камень</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c4c49a2b-7117-4497-9238-4a1d6a408892</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ДрагоценныеКамни</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="09ec3544-faf2-4d3a-a407-183aa4512453">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ФормаОгранки</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ab4d2604-e09a-48e4-be37-d23eeda6f9e7</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФормыОгранки</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f4180792-dc98-49e4-9841-41ccc095504e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Вес</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ea8f103a-a3ae-4803-83e4-ce895532d7ad</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="022a0ce7-8846-4085-a4d1-424a4e4f2212">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ГруппаДефекта</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>1d8780fa-76ab-4290-943b-78194c28499f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ГруппыДефектов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e5ba3a86-0d34-4d94-b0f0-9f3ae3386d62">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Рассев</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>dcfefad5-88cb-4221-a415-095e938c81a2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Рассевы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ceb112fc-eab3-4562-814b-4ddbb94feed9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЦветКамня</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>1fb2dc78-c321-44ff-9f6e-20cd3a9fac7e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Цвета</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="47ae5610-14ac-402b-a93b-d5eb9ac1a7fb">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ГеометрияКамняГИИСДМДК</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8704bff5-c1bf-4731-8d79-63d21a0d839b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторГеометрийКамняГИИСДМДК</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d18193cb-56f7-4257-9412-ec746ead5307">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СпособОблагораживанияГИИСДМДК</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8b7cadfb-32ec-49c3-9994-c1aac4d914c6</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторСпособовОблагораживанияГИИСДМДК</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d80b4326-7a8f-4624-acc0-b76f84050c39">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ВставкаИзготовителя</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>9a40f68b-4253-494a-9397-6d6a1df87443</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлементаУ</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

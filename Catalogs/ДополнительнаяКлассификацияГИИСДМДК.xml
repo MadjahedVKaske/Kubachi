@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="c1f1d1a9-c8e2-41a6-b8b4-048c0d2e1478">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДополнительнаяКлассификацияГИИСДМДК" category="Object">
+				<xr:TypeId>ed308805-9353-4632-9815-ff6389126e0e</xr:TypeId>
+				<xr:ValueId>e0f01eaa-a9e7-4dcb-9f15-4bd4fc78355c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДополнительнаяКлассификацияГИИСДМДК" category="Ref">
+				<xr:TypeId>43d4bbf6-f1a0-4680-ac29-a0974700930f</xr:TypeId>
+				<xr:ValueId>0d17cf3d-6938-428e-8f77-23f77486ff6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДополнительнаяКлассификацияГИИСДМДК" category="Selection">
+				<xr:TypeId>78b08f28-4e86-49dd-b03a-ede5c3ed3428</xr:TypeId>
+				<xr:ValueId>49285ea2-913c-4044-8583-7d188ec433c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДополнительнаяКлассификацияГИИСДМДК" category="List">
+				<xr:TypeId>79b2e668-ee3a-4d43-afbe-3b3cdf8dfea0</xr:TypeId>
+				<xr:ValueId>7662f1ff-14fa-44d7-87da-93cd35ca8686</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДополнительнаяКлассификацияГИИСДМДК" category="Manager">
+				<xr:TypeId>da18f610-f70a-4d5f-98fa-aa35646d41e6</xr:TypeId>
+				<xr:ValueId>48cceec3-6044-4f85-b93d-2369b5a3f753</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДополнительнаяКлассификацияГИИСДМДК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c852eb78-b268-4fc6-8d53-a2d94d0c7a2c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="784e8a2a-3ebb-4376-b861-efba5199141f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыДефектов" category="Object">
+				<xr:TypeId>4bb6c8d9-31ba-41e2-8e51-ff6ff6318ddd</xr:TypeId>
+				<xr:ValueId>4e7b5039-1674-4854-af5c-74e274c8867f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыДефектов" category="Ref">
+				<xr:TypeId>94542ec7-7dd9-4ecf-9048-925f07945a70</xr:TypeId>
+				<xr:ValueId>f1d9ff30-b4d5-4214-addb-fcb84e133ace</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыДефектов" category="Selection">
+				<xr:TypeId>804fbab5-5b82-4be0-9814-e437c059375e</xr:TypeId>
+				<xr:ValueId>fc5a30ef-684a-4c54-9ecc-2234f7ed9a3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыДефектов" category="List">
+				<xr:TypeId>a78da583-52e4-4a24-9511-15742a3491b8</xr:TypeId>
+				<xr:ValueId>3e997a5d-5fc6-4327-8dac-3b2aea48a1bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыДефектов" category="Manager">
+				<xr:TypeId>27d6088d-ccb1-4501-a102-775f21dc1543</xr:TypeId>
+				<xr:ValueId>9ec2b098-c45c-4109-8b29-050bebf0b5db</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыДефектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9b94a2d7-722b-42d0-9311-91c8acb961fc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

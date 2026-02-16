@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="398eb4e7-a610-47d4-8e9b-c81b89bfed60">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Рассевы" category="Object">
+				<xr:TypeId>d869cbc4-63d0-4fbb-bd76-68fbff1c83f9</xr:TypeId>
+				<xr:ValueId>ea192b9b-eaa5-49b7-8c2c-400c70605621</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Рассевы" category="Ref">
+				<xr:TypeId>7dbd1568-d7e2-41a3-b176-9269eae257dc</xr:TypeId>
+				<xr:ValueId>5d6cdb34-404b-4583-aabc-70c7ff11fa96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Рассевы" category="Selection">
+				<xr:TypeId>afc13cb8-18d7-44ef-b73f-53592f4309a7</xr:TypeId>
+				<xr:ValueId>bc8630b2-b93a-44ae-9624-f564d49b1733</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Рассевы" category="List">
+				<xr:TypeId>7a0b8ccf-4b6e-432c-bf3c-9841c4e8f3e9</xr:TypeId>
+				<xr:ValueId>42d114b6-b09c-4a35-9b8f-ef1b0fc9f23d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Рассевы" category="Manager">
+				<xr:TypeId>14fde1ff-ba30-4cd5-bdef-4ced5011e48f</xr:TypeId>
+				<xr:ValueId>641390e9-2229-48e8-b5f1-1fdbc7a17bf4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Рассевы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>727c72ee-4b52-4579-997c-996fc60fd464</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

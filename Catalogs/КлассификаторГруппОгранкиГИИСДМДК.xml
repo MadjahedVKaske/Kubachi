@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="d374644e-b4bb-4ba8-a349-ea40baaaa321">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторГруппОгранкиГИИСДМДК" category="Object">
+				<xr:TypeId>515c02fe-60b6-4da0-b4c1-62d32c382947</xr:TypeId>
+				<xr:ValueId>e316b3fb-068c-42ab-bdf8-0851c61e5d03</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторГруппОгранкиГИИСДМДК" category="Ref">
+				<xr:TypeId>10469c01-5177-41b5-b8d3-c8cdbb128803</xr:TypeId>
+				<xr:ValueId>5f707cd4-5040-443b-ac1b-cf330edf9aea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторГруппОгранкиГИИСДМДК" category="Selection">
+				<xr:TypeId>ce688922-218c-48fa-9eb2-eb6fd078d300</xr:TypeId>
+				<xr:ValueId>4ed34d07-60a2-47ae-9c33-bc71e93e328e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторГруппОгранкиГИИСДМДК" category="List">
+				<xr:TypeId>5e5e273b-d3a8-4720-96a6-db3ac4adcc4d</xr:TypeId>
+				<xr:ValueId>e263a7d9-f455-4715-974e-6bc1d417ebf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторГруппОгранкиГИИСДМДК" category="Manager">
+				<xr:TypeId>53e06389-35a6-4a35-a29b-423990f2f61f</xr:TypeId>
+				<xr:ValueId>e09341b1-e78c-41ea-ae31-99712efa9fd1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторГруппОгранкиГИИСДМДК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1ac3e1a0-031a-41d2-9f95-05b831183cc8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

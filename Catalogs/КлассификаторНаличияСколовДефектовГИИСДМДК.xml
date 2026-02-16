@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="b8c7b3f8-d936-45fa-8724-07b2f506f194">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторНаличияСколовДефектовГИИСДМДК" category="Object">
+				<xr:TypeId>6d0da06c-b8ec-43ce-9f86-3f6ac5559846</xr:TypeId>
+				<xr:ValueId>ad049820-8b71-4449-9946-dd905686cfd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторНаличияСколовДефектовГИИСДМДК" category="Ref">
+				<xr:TypeId>857863a0-7da0-4af5-85ba-5b9710970ae5</xr:TypeId>
+				<xr:ValueId>9f7dbac9-9f67-44c7-86ec-2669ea62a031</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторНаличияСколовДефектовГИИСДМДК" category="Selection">
+				<xr:TypeId>3d3843e9-9dec-4b3f-888d-b23ca2523a38</xr:TypeId>
+				<xr:ValueId>2a075e5e-54c5-4293-a855-794ca28dc88b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторНаличияСколовДефектовГИИСДМДК" category="List">
+				<xr:TypeId>fe290c55-4313-4630-9a9b-c0560baf366b</xr:TypeId>
+				<xr:ValueId>9af14d24-f4df-458f-8d66-2b26a0e5b451</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторНаличияСколовДефектовГИИСДМДК" category="Manager">
+				<xr:TypeId>8ce658f0-46a3-4f34-a444-bb4bd702a2d3</xr:TypeId>
+				<xr:ValueId>ae0c755c-4767-4020-85e0-5b9a54fd6707</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторНаличияСколовДефектовГИИСДМДК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5668812b-ca38-4d89-b32f-e9472aa18c1b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

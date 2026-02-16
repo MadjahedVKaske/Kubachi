@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="bd55a04e-8f42-4780-9f7c-affa153aaeaf">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.МатериалВПроизводстве" category="Ref">
+				<xr:TypeId>03ae49e7-1ccf-4f73-a867-532a6e89dd1f</xr:TypeId>
+				<xr:ValueId>d411982f-8e2b-488b-ab2e-99ea6954c10c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.МатериалВПроизводстве" category="Manager">
+				<xr:TypeId>7fa0501b-4828-447d-b579-798ab99d5b3d</xr:TypeId>
+				<xr:ValueId>28e8ebbd-2d79-4688-a0f4-84ec701bcfca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.МатериалВПроизводстве" category="List">
+				<xr:TypeId>3cbde225-33ab-4c3b-879b-515b3d28ba8e</xr:TypeId>
+				<xr:ValueId>9f672eb3-24d8-4f18-915b-85653fc8daea</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>МатериалВПроизводстве</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e09bfbb2-0eb0-4a06-9b73-f5ab97f4fdfc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

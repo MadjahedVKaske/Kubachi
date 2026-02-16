@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗаписатьДанные" id="32">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ЗаписатьДанные</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьДанныеРасширеннаяПодсказка" id="33"/>
+			</Button>
+			<Button name="ФормаЗаполнить" id="34">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Заполнить</CommandName>
+				<ExtendedTooltip name="ФормаЗаполнитьРасширеннаяПодсказка" id="35"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="ТабличноеПолеТовары" id="1">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТабличноеПолеТовары</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТабличноеПолеТоварыКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТабличноеПолеТоварыКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="ТабличноеПолеТоварыРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТабличноеПолеТоварыСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТабличноеПолеТовары</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабличноеПолеТоварыСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТабличноеПолеТоварыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТабличноеПолеТоварыСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТабличноеПолеТовары</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабличноеПолеТоварыСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТабличноеПолеТоварыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТабличноеПолеТоварыУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТабличноеПолеТовары</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабличноеПолеТоварыУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТабличноеПолеТоварыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТабличноеПолеТоварыНомерСтроки" id="36">
+					<DataPath>ТабличноеПолеТовары.НомерСтроки</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>4</Width>
+					<ContextMenu name="ТабличноеПолеТоварыНомерСтрокиКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ТабличноеПолеТоварыНомерСтрокиРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="ТабличноеПолеТоварыАртикул" id="14">
+					<DataPath>ТабличноеПолеТовары.Артикул</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабличноеПолеТоварыАртикулКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТабличноеПолеТоварыАртикулРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="ТабличноеПолеТоварыНоменклатура" id="17">
+					<DataPath>ТабличноеПолеТовары.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабличноеПолеТоварыНоменклатураКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТабличноеПолеТоварыНоменклатураРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТабличноеПолеТоварыПроба" id="20">
+					<DataPath>ТабличноеПолеТовары.Проба</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабличноеПолеТоварыПробаКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТабличноеПолеТоварыПробаРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="ТабличноеПолеТоварыХарактеристикаНоменклатуры" id="23">
+					<DataPath>ТабличноеПолеТовары.ХарактеристикаНоменклатуры</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабличноеПолеТоварыХарактеристикаНоменклатурыКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТабличноеПолеТоварыХарактеристикаНоменклатурыРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТабличноеПолеТоварыРазмер" id="26">
+					<DataPath>ТабличноеПолеТовары.Размер</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабличноеПолеТоварыРазмерКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТабличноеПолеТоварыРазмерРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ТабличноеПолеТоварыНовыйШтрихкод" id="29">
+					<DataPath>ТабличноеПолеТовары.НовыйШтрихкод</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабличноеПолеТоварыНовыйШтрихкодКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТабличноеПолеТоварыНовыйШтрихкодРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗаполнениеШтрихкодовВТабличнойЧасти</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТабличноеПолеТовары" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табличное поле товары</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Артикул" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номенклатура" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Проба" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проба</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пробы</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ХарактеристикаНоменклатуры" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Размер" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Размер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Размер</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НовыйШтрихкод" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новый штрихкод</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерСтроки" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер строки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТоварыТаблица" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары таблица</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СерияНоменклатуры" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серия номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Размер" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Размер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Размер</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ХарактеристикаНоменклатуры" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИсходныйДокумент" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исходный документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ПоступлениеПродукцииИзПроизводства</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПоступлениеТоваровУслуг</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Заполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заполнить</Action>
+		</Command>
+		<Command name="ЗаписатьДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьДанные</Action>
+		</Command>
+	</Commands>
+</Form>

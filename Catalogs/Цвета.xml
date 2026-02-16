@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="8d2a9c9a-5558-4ff9-a514-787e2f876221">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Цвета" category="Object">
+				<xr:TypeId>a6f86e88-720f-4ba4-a9b6-63afd48e6a2d</xr:TypeId>
+				<xr:ValueId>f62d6a64-e6db-405f-a457-0f36a1007864</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Цвета" category="Ref">
+				<xr:TypeId>8588c331-126b-493a-ba82-ffbfd19a0bd9</xr:TypeId>
+				<xr:ValueId>050763f7-8242-46c3-b696-22992e45631e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Цвета" category="Selection">
+				<xr:TypeId>398e3fee-15cf-47d8-8d86-cdf086118b43</xr:TypeId>
+				<xr:ValueId>38937b55-dc7b-48d7-a1fd-d37b7005d1e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Цвета" category="List">
+				<xr:TypeId>a8da0c8e-5776-4341-9ae7-09c7fa2bbae6</xr:TypeId>
+				<xr:ValueId>20d475db-7b15-4cbe-a279-a18d21ad06fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Цвета" category="Manager">
+				<xr:TypeId>dc3d4944-8594-44ba-b964-fcd729440d7d</xr:TypeId>
+				<xr:ValueId>181b0b92-cecc-4294-b2af-848aee8cc623</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Цвета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e4896bca-39c3-4be2-9957-03d9ae327af5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="5ae31503-d39f-4580-9389-7fb5267499fe">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИнтернетЗаказ" category="Object">
+				<xr:TypeId>f8020d67-6f3f-4a8d-b2ee-65bbc373369d</xr:TypeId>
+				<xr:ValueId>072b89df-e286-49ba-bd1c-7b0363ea5b7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИнтернетЗаказ" category="Ref">
+				<xr:TypeId>84cf12fc-40a5-4455-a95f-555a99b2154d</xr:TypeId>
+				<xr:ValueId>3401eb23-603e-4af8-b849-f3b032db809c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИнтернетЗаказ" category="Selection">
+				<xr:TypeId>b9bb65a2-362f-4448-b9c4-5939280c053a</xr:TypeId>
+				<xr:ValueId>cfaafd13-e654-4ea0-bba3-a8be3e5897cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИнтернетЗаказ" category="List">
+				<xr:TypeId>f88f115c-9ed8-4fec-973e-b825edfca3c4</xr:TypeId>
+				<xr:ValueId>3997d561-7172-4329-bc83-9f21599e639a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИнтернетЗаказ" category="Manager">
+				<xr:TypeId>7b8a2c40-8975-44e0-82a6-3ddc52c0ecaf</xr:TypeId>
+				<xr:ValueId>d8f5aff9-f873-44c6-84a9-547874f74728</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИнтернетЗаказ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d9ec3a69-7677-4ea0-8534-d424a3ae1078</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

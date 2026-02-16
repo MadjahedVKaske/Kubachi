@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="31a61820-184a-4ff1-94ef-61949c0b1c3d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторСпособовОблагораживанияГИИСДМДК" category="Object">
+				<xr:TypeId>bceb22d0-df38-4896-9529-300fd0e896a1</xr:TypeId>
+				<xr:ValueId>0d57f383-6cb5-4bae-aa9f-654ed8e809b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторСпособовОблагораживанияГИИСДМДК" category="Ref">
+				<xr:TypeId>9dffa39f-a7f2-4a36-b752-7cdc2358a042</xr:TypeId>
+				<xr:ValueId>62522fbc-33f7-4f50-b319-cd56d05e5759</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторСпособовОблагораживанияГИИСДМДК" category="Selection">
+				<xr:TypeId>8e0a044a-f925-4a5f-bb35-500adbad8e33</xr:TypeId>
+				<xr:ValueId>bb43d86a-0d94-44b9-9fe4-f33b8a713a62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторСпособовОблагораживанияГИИСДМДК" category="List">
+				<xr:TypeId>7f41d06b-a031-41ca-b775-73dbc23ad1b3</xr:TypeId>
+				<xr:ValueId>c672a85e-1f99-4bb7-8bd9-afa22648450b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторСпособовОблагораживанияГИИСДМДК" category="Manager">
+				<xr:TypeId>676354e9-4b6b-487b-baae-167d22b2448a</xr:TypeId>
+				<xr:ValueId>3ea4d8d1-91e5-472b-a8c0-bbbf34e4a2a8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторСпособовОблагораживанияГИИСДМДК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2f0306f6-be78-4a1a-9c61-1b987923236f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

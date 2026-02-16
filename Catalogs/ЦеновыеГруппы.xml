@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="810d8bd1-6b98-4988-b264-5f85559e7839">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЦеновыеГруппы" category="Object">
+				<xr:TypeId>dbe2e655-13b6-404f-9897-7a335de261d2</xr:TypeId>
+				<xr:ValueId>3afb9095-33f5-4ed1-99f8-268067b3b914</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЦеновыеГруппы" category="Ref">
+				<xr:TypeId>8535090b-9931-448c-b3a8-507cc4ec04c8</xr:TypeId>
+				<xr:ValueId>08c9d838-d34b-42e7-a247-346f02db9b3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЦеновыеГруппы" category="Selection">
+				<xr:TypeId>285706a0-d18c-4233-9ae9-64d2e9fdd77a</xr:TypeId>
+				<xr:ValueId>162fc183-5b49-4631-b29d-428c5d02088a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЦеновыеГруппы" category="List">
+				<xr:TypeId>307416eb-431e-446a-86d4-e6edd514853a</xr:TypeId>
+				<xr:ValueId>f6423062-94a1-496c-9a5b-88c2680bd8e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЦеновыеГруппы" category="Manager">
+				<xr:TypeId>b29a7bcb-1aa7-4ffe-83ba-edb70d14486d</xr:TypeId>
+				<xr:ValueId>9a67d56a-0711-48ef-8699-19ea1c7218b3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЦеновыеГруппы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b25bdea6-7c70-4bda-8cd2-1c04822ca7ac</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

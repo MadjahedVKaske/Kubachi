@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="2e05d292-b8f1-476d-8b4f-4745298316b2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТоварныеПозиции" category="Object">
+				<xr:TypeId>cc7e0b22-6e3f-4ad4-ae61-8039eeda0972</xr:TypeId>
+				<xr:ValueId>b09b86d8-3f99-4135-a7db-660945d3a164</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТоварныеПозиции" category="Ref">
+				<xr:TypeId>60deaf2c-dbc8-4193-b222-c497e5a40ba4</xr:TypeId>
+				<xr:ValueId>29ee62fb-28c0-4c46-b9b6-2f4176c52708</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТоварныеПозиции" category="Selection">
+				<xr:TypeId>28954a61-b64f-4e3b-bb1b-d348a16e0722</xr:TypeId>
+				<xr:ValueId>a8dfb69b-ec7c-4426-b7b7-749a63cec683</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТоварныеПозиции" category="List">
+				<xr:TypeId>f8809cea-c0e3-4ab2-8315-6d8f235c4c0e</xr:TypeId>
+				<xr:ValueId>b81506ed-c0af-40d0-b493-2953d27b5ee7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТоварныеПозиции" category="Manager">
+				<xr:TypeId>6d7324af-6930-4235-be15-b9da09bf948a</xr:TypeId>
+				<xr:ValueId>71549c84-ca4e-40ac-b269-7cc4c6bcbc51</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТоварныеПозиции</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>65feb5e2-4f94-454a-a0d6-65e832b0e150</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

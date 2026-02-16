@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="3683f104-aed7-4860-a16d-b06f00dc01d6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВводОстатковАгрегированныхПартий" category="Object">
+				<xr:TypeId>b1b46dcf-8704-4fee-b0a1-56d5e8a5e2a8</xr:TypeId>
+				<xr:ValueId>9ffc7e0f-638a-4b4b-b0c3-8c48d43bc14f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВводОстатковАгрегированныхПартий" category="Ref">
+				<xr:TypeId>df6c46e2-d9e0-4035-9024-e3152c96b519</xr:TypeId>
+				<xr:ValueId>15495536-1ab4-4892-99c3-61c55f7a7b85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВводОстатковАгрегированныхПартий" category="Selection">
+				<xr:TypeId>ec96b94d-c642-4e82-9f9a-ead164436620</xr:TypeId>
+				<xr:ValueId>5725d0a8-66d2-448a-b46e-08d93314ea56</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВводОстатковАгрегированныхПартий" category="List">
+				<xr:TypeId>fc193a2c-b37e-49d0-afb4-c82a005aaa20</xr:TypeId>
+				<xr:ValueId>cb55fa2e-98d9-4623-90a0-39911844d30b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВводОстатковАгрегированныхПартий" category="Manager">
+				<xr:TypeId>0bcd7819-fcdd-4da1-8c88-d1c95f31f109</xr:TypeId>
+				<xr:ValueId>d114b1c6-c139-47f9-8306-2f036ce0c177</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВводОстатковАгрегированныхПартий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a992249a-2c03-42a8-b03f-e86dbe3e0c3b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+			<Template>НастройкиЗаполненияНачальныхОстатковИзм</Template>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<DataProcessor uuid="32e2bd0c-51a3-4692-a235-a1a2a4bb2640">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПечатьЭтикетокИЦенников" category="Object">
+				<xr:TypeId>9949c690-55ef-4d20-9773-aa58bc6370c3</xr:TypeId>
+				<xr:ValueId>455090df-210e-4844-9e68-1528dc5273a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПечатьЭтикетокИЦенников" category="Manager">
+				<xr:TypeId>e4bbf002-1cd9-4fa2-b7c0-d9542e8cb2cc</xr:TypeId>
+				<xr:ValueId>5ed98a8d-e4ce-4270-8afb-3c2c32cc647c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПечатьЭтикетокИЦенников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>01dc1b32-e4ec-4d84-a4e0-9d5022555a40</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаУ</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

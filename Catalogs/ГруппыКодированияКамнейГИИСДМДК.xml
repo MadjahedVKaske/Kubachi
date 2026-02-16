@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="5dae3400-795c-49c2-a9f9-7de50b2e6ee8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыКодированияКамнейГИИСДМДК" category="Object">
+				<xr:TypeId>7329be38-5a5a-43b4-ad26-269defc19d8c</xr:TypeId>
+				<xr:ValueId>dcb3f940-b490-4232-9cba-16ac25881556</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыКодированияКамнейГИИСДМДК" category="Ref">
+				<xr:TypeId>923b0ea0-149e-4d75-b3ba-b3013fc1a975</xr:TypeId>
+				<xr:ValueId>9a4d983d-18dd-4049-8812-775dbf1e3977</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыКодированияКамнейГИИСДМДК" category="Selection">
+				<xr:TypeId>8277f10a-6e17-40f0-ad03-e45dd1c2e323</xr:TypeId>
+				<xr:ValueId>ac07c917-f41a-4c49-b7a4-0d60705afa16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыКодированияКамнейГИИСДМДК" category="List">
+				<xr:TypeId>43172182-9c8c-4b30-acae-c0b4525b0524</xr:TypeId>
+				<xr:ValueId>6271f91e-6283-414b-adb9-899372e4d4f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыКодированияКамнейГИИСДМДК" category="Manager">
+				<xr:TypeId>6ef15ace-9d83-4c2a-b8fc-324e33cca496</xr:TypeId>
+				<xr:ValueId>180641d4-4c1b-4d13-b103-5616e6611fdf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыКодированияКамнейГИИСДМДК</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1dc3dc49-4702-4796-9df1-6f3c5bf50e17</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

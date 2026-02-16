@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ЗагрузитьДанные" id="1">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗагрузитьДанные</CommandName>
+				<ExtendedTooltip name="ЗагрузитьДанныеРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="Сохранить" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Сохранить</CommandName>
+				<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="4"/>
+			</Button>
+			<Button name="ОчиститьВыделенные" id="5">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОчиститьВыделенные</CommandName>
+				<ExtendedTooltip name="ОчиститьВыделенныеРасширеннаяПодсказка" id="6"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаФильтр" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="ГруппаФильтрРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<InputField name="ОтборПоНоменклатуре" id="12">
+					<DataPath>ОтборПоНоменклатуре</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор по номенклатуре</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ContextMenu name="ОтборПоНоменклатуреКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ОтборПоНоменклатуреРасширеннаяПодсказка" id="14"/>
+					<Events>
+						<Event name="OnChange">ОтборПоНоменклатуреПриИзменении</Event>
+					</Events>
+				</InputField>
+				<CheckBoxField name="ТолькоБезАртикулов" id="15">
+					<DataPath>ТолькоБезАртикулов</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Только без артикулов ВБ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показать только элементы без артикулов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ContextMenu name="ТолькоБезАртикуловКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ТолькоБезАртикуловРасширеннаяПодсказка" id="17"/>
+					<Events>
+						<Event name="OnChange">ТолькоБезАртикуловПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ТаблицаАртикулов" id="20">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТаблицаАртикулов</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<RowFilter>
+				<xr:Common>
+					<xr:Expression/>
+					<xr:ViewMode>Normal</xr:ViewMode>
+					<xr:UserSettingID>7b72cf0b-67c3-4e1c-b948-f62fcf4a42b9</xr:UserSettingID>
+				</xr:Common>
+			</RowFilter>
+			<ContextMenu name="ТаблицаАртикуловКонтекстноеМеню" id="21"/>
+			<AutoCommandBar name="ТаблицаАртикуловКоманднаяПанель" id="22"/>
+			<ExtendedTooltip name="ТаблицаАртикуловРасширеннаяПодсказка" id="23"/>
+			<SearchOnInput>Auto</SearchOnInput>
+			<ChildItems>
+				<InputField name="ТаблицаАртикуловНоменклатура" id="30">
+					<DataPath>ТаблицаАртикулов.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаАртикуловНоменклатураКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="ТаблицаАртикуловНоменклатураРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<InputField name="ТаблицаАртикуловХарактеристика" id="33">
+					<DataPath>ТаблицаАртикулов.Характеристика</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаАртикуловХарактеристикаКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="ТаблицаАртикуловХарактеристикаРасширеннаяПодсказка" id="35"/>
+				</InputField>
+				<InputField name="ТаблицаАртикуловАртикул" id="36">
+					<DataPath>ТаблицаАртикулов.Артикул</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="ТаблицаАртикуловАртикулКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ТаблицаАртикуловАртикулРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="ТаблицаАртикуловАртикулВБ" id="39">
+					<DataPath>ТаблицаАртикулов.АртикулВБ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаАртикуловАртикулВБКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ТаблицаАртикуловАртикулВБРасширеннаяПодсказка" id="41"/>
+					<Events>
+						<Event name="OnChange">ТаблицаАртикуловАртикулВБПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТаблицаАртикуловДопАртикулДляВБ" id="42">
+					<DataPath>ТаблицаАртикулов.ДопАртикулДляВБ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаАртикуловДопАртикулДляВБКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ТаблицаАртикуловДопАртикулДляВБРасширеннаяПодсказка" id="44"/>
+					<Events>
+						<Event name="OnChange">ТаблицаАртикуловДопАртикулДляВБПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТаблицаАртикуловИзменен" id="45">
+					<DataPath>ТаблицаАртикулов.Изменен</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="ТаблицаАртикуловИзмененКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ТаблицаАртикуловИзмененРасширеннаяПодсказка" id="47"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.B1_РаботаСАртикуламиВБ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТаблицаАртикулов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица артикулов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Характеристика" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Артикул" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="АртикулВБ" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул ВБ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДопАртикулДляВБ" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп артикул для ВБ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Изменен" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменен</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ОтборПоНоменклатуре" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор по номенклатуре</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТолькоБезАртикулов" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только без артикулов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗагрузитьДанные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные из базы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьДанные</Action>
+		</Command>
+		<Command name="Сохранить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить изменения в базу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сохранить</Action>
+		</Command>
+		<Command name="ОчиститьВыделенные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить выделенные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить артикулы ВБ у выделенных строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьВыделенные</Action>
+		</Command>
+	</Commands>
+</Form>

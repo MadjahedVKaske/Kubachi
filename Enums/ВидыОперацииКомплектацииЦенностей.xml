@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="1a0f7c31-09b5-4602-b5eb-2ad9e2d7ce25">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацииКомплектацииЦенностей" category="Ref">
+				<xr:TypeId>e2e759ec-a611-4c7f-8636-adf896decc07</xr:TypeId>
+				<xr:ValueId>f69df86f-c34f-46de-a0ea-aac43bf9f019</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацииКомплектацииЦенностей" category="Manager">
+				<xr:TypeId>560efa15-93b5-4a2b-99ed-d26dfa17df59</xr:TypeId>
+				<xr:ValueId>639a1254-8ffb-4e72-9372-b7c15f4d136f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацииКомплектацииЦенностей" category="List">
+				<xr:TypeId>c660ae37-0053-47be-9e42-6c327786813a</xr:TypeId>
+				<xr:ValueId>1e593007-9c18-4404-81fe-488c1b3c5194</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацииКомплектацииЦенностей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f24421da-1178-4491-951a-1bc21f2f1d1e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3ac97871-09c5-4539-a772-263a69939561">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПреобразованиеВЛом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4a951a44-69d0-4084-b53e-cd7d74b548c6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fadb2e81-06c8-480d-9844-3c0ae26761cf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КомплектацияКамни</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f4301f60-4a9e-477a-b58c-1e3fd939d147</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="81d2dc32-2832-4cf3-8a4d-7ad61830aeca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазукомплектацияКамни</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bbab5dfc-801a-4f2c-bfd9-1a962e49c3a3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

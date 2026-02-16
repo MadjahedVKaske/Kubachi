@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Document uuid="b2b12eac-97d4-499c-aa07-3d325163cd69">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеТоваров" category="Object">
+				<xr:TypeId>94e16a79-c921-4a72-87b8-21aba200b55e</xr:TypeId>
+				<xr:ValueId>14cc8158-aef3-4290-9438-d74f8dfe6ee5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеТоваров" category="Ref">
+				<xr:TypeId>78d90f20-ef2b-4f61-9d58-bf9d8aa479ae</xr:TypeId>
+				<xr:ValueId>2907cc75-b78b-4ab7-b332-e2413e2d3823</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеТоваров" category="Selection">
+				<xr:TypeId>c62407d7-46bd-4c5d-b7fd-a3cf3d5b79ea</xr:TypeId>
+				<xr:ValueId>a3fe3bde-9c44-4836-bcf7-435831fbe58a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеТоваров" category="List">
+				<xr:TypeId>3f10768f-5b75-402c-8593-9ce823f525aa</xr:TypeId>
+				<xr:ValueId>416cc967-96f3-418b-8d5c-7b7944d210c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеТоваров" category="Manager">
+				<xr:TypeId>970f8663-3a28-4b81-a03e-3c83d196e38e</xr:TypeId>
+				<xr:ValueId>235ade41-6673-453a-ad78-a275aa001848</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПеремещениеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1eccf50b-bb4c-40aa-8956-6627ed90e3cb</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокументаУ</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="e6a51bbe-d793-4a1c-9869-eb6a31975ab8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДрагоценныеКамни" category="Object">
+				<xr:TypeId>92f909cc-0733-467d-92fb-80d123838435</xr:TypeId>
+				<xr:ValueId>79adf972-ff0f-4991-9592-67fb427acb32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДрагоценныеКамни" category="Ref">
+				<xr:TypeId>df28cb3c-6783-4d2f-a230-f482ef3dd81b</xr:TypeId>
+				<xr:ValueId>a50573d7-cb73-463a-beca-e485d1be7c55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДрагоценныеКамни" category="Selection">
+				<xr:TypeId>b1a79072-c538-49e4-b98c-ae3f6aac0ccc</xr:TypeId>
+				<xr:ValueId>ee634a0e-548f-45bf-99a6-3536a3c53983</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДрагоценныеКамни" category="List">
+				<xr:TypeId>6b7b54c6-eed3-4c19-a72b-c6437291b158</xr:TypeId>
+				<xr:ValueId>4f405f3e-710f-484b-8dc1-c6d0180e35db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДрагоценныеКамни" category="Manager">
+				<xr:TypeId>47cbeb92-abad-41b9-be8e-fc3367a17b55</xr:TypeId>
+				<xr:ValueId>91a4c4f2-5182-4cc4-b76d-879fed00a19d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДрагоценныеКамни</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>40a3b856-bb08-4edb-b836-98d57d559c45</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8ad140c7-0492-4ce2-a108-9125591eb32c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УчетВКаратах</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5d8c3961-163d-4a83-9915-3109a9f73c09</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

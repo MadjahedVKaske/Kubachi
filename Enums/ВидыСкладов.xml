@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="d928e55d-efbf-4609-b427-a2fd38d2cb04">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыСкладов" category="Ref">
+				<xr:TypeId>6d4d44c4-0906-481d-b811-f92877837983</xr:TypeId>
+				<xr:ValueId>493ed3b5-68bb-4f81-8055-51264e0692fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыСкладов" category="Manager">
+				<xr:TypeId>a79d3bf5-7ee7-4f41-b726-6688a7535957</xr:TypeId>
+				<xr:ValueId>c475b83f-0b7e-4520-be8b-bb1298475084</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыСкладов" category="List">
+				<xr:TypeId>177e315f-5fef-4d30-8064-4aeed6465974</xr:TypeId>
+				<xr:ValueId>45ab3606-b208-4a73-a36e-a0b66d55166a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыСкладов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bbde9ede-beda-4df9-9f7f-7c3dc3d1a28f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2d303b95-3f92-4392-b615-425a0e7fb043">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Оптовый</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>de3f006c-347a-4f62-b1f2-81a3399b5882</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c9a59357-9824-46b7-9034-d5b387f9b495">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Розничный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f020b490-d83e-4318-b075-fb04e22ee888</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3762163a-5089-4f95-a54d-9b928dba9465">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеавтоматизированнаяТорговаяТочка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cb9aaa27-905b-4e1c-ae58-73d7c90ae75d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

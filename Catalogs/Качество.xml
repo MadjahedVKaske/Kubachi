@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="4f806fd5-b945-4b81-8395-2bbe779e6d0e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Качество" category="Object">
+				<xr:TypeId>da89fe7a-fd79-47d8-bf5a-307c4a261ef0</xr:TypeId>
+				<xr:ValueId>cc2fc2d4-4f62-4289-8bc4-5e9e41dcc558</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Качество" category="Ref">
+				<xr:TypeId>55d00a0b-541c-4138-a9c3-4aaf1ce0ee5e</xr:TypeId>
+				<xr:ValueId>1470c0eb-1950-4206-8ad6-fb6d5c06f916</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Качество" category="Selection">
+				<xr:TypeId>99adfb78-3ec7-483b-92ac-309a2e98ebbc</xr:TypeId>
+				<xr:ValueId>f216a868-0d3e-4d46-9df6-6031f1a8c20d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Качество" category="List">
+				<xr:TypeId>d800b867-759e-48a0-b589-b37d6e239499</xr:TypeId>
+				<xr:ValueId>2d1faa18-011c-46d4-bd30-13ec631e08bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Качество" category="Manager">
+				<xr:TypeId>cb6feba6-5701-4707-8494-153d6c2aeb76</xr:TypeId>
+				<xr:ValueId>efe52fab-a4f2-4755-8c44-257896c55a36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Качество</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f6004fed-a8a1-4ed8-8655-7b8459305371</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

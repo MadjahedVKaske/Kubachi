@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыгрузитьДанные" id="102">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ВыгрузитьДанные</CommandName>
+				<ExtendedTooltip name="ФормаВыгрузитьДанныеРасширеннаяПодсказка" id="103"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновное" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основное</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основное</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<CheckBoxField name="СохранитьВФайл" id="3">
+					<DataPath>СохранитьВФайл</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СохранитьВФайлКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="СохранитьВФайлРасширеннаяПодсказка" id="5"/>
+				</CheckBoxField>
+				<InputField name="ВидыЦен" id="6">
+					<DataPath>ВидыЦен</DataPath>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<TextEdit>false</TextEdit>
+					<ContextMenu name="ВидыЦенКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ВидыЦенРасширеннаяПодсказка" id="8"/>
+					<Events>
+						<Event name="StartChoice">ВидыЦенНачалоВыбора</Event>
+						<Event name="Clearing">ВидыЦенОчистка</Event>
+					</Events>
+				</InputField>
+				<UsualGroup name="ГруппаОсновноеСвойство" id="100">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основное свойство</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основное свойство</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОсновноеСвойствоРасширеннаяПодсказка" id="101"/>
+					<ChildItems>
+						<InputField name="Свойство" id="9">
+							<DataPath>Свойство</DataPath>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>true</ClearButton>
+							<OpenButton>false</OpenButton>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="СвойствоКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="СвойствоРасширеннаяПодсказка" id="11"/>
+						</InputField>
+						<Button name="УстановитьСвойство" id="18">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.УстановитьСвойство</CommandName>
+							<ExtendedTooltip name="УстановитьСвойствоРасширеннаяПодсказка" id="19"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСклады" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склады</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа склады</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаСкладыРасширеннаяПодсказка" id="13"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаСкладыКоманды" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа склады команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа склады команды</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСкладыКомандыРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<Button name="ВыборСкладов" id="14">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВыборСкладов</CommandName>
+							<ExtendedTooltip name="ВыборСкладовРасширеннаяПодсказка" id="15"/>
+						</Button>
+						<Button name="ОчиститьСписокСкладов" id="16">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОчиститьСписокСкладов</CommandName>
+							<ExtendedTooltip name="ОчиститьСписокСкладовРасширеннаяПодсказка" id="17"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаСкладыТаблица" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа склады таблица</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа склады таблица</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСкладыТаблицаРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<Table name="СкладыТаблицаЗначений" id="20">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<HeightInTableRows>4</HeightInTableRows>
+							<HeightControlVariant>UseHeightInTableRows</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СкладыТаблицаЗначений</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СкладыТаблицаЗначенийКонтекстноеМеню" id="21"/>
+							<AutoCommandBar name="СкладыТаблицаЗначенийКоманднаяПанель" id="22"/>
+							<ExtendedTooltip name="СкладыТаблицаЗначенийРасширеннаяПодсказка" id="23"/>
+							<SearchStringAddition name="СкладыТаблицаЗначенийСтрокаПоиска" id="24">
+								<AdditionSource>
+									<Item>СкладыТаблицаЗначений</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СкладыТаблицаЗначенийСтрокаПоискаКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="СкладыТаблицаЗначенийСтрокаПоискаРасширеннаяПодсказка" id="26"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СкладыТаблицаЗначенийСостояниеПросмотра" id="27">
+								<AdditionSource>
+									<Item>СкладыТаблицаЗначений</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СкладыТаблицаЗначенийСостояниеПросмотраКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="СкладыТаблицаЗначенийСостояниеПросмотраРасширеннаяПодсказка" id="29"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СкладыТаблицаЗначенийУправлениеПоиском" id="30">
+								<AdditionSource>
+									<Item>СкладыТаблицаЗначений</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СкладыТаблицаЗначенийУправлениеПоискомКонтекстноеМеню" id="31"/>
+								<ExtendedTooltip name="СкладыТаблицаЗначенийУправлениеПоискомРасширеннаяПодсказка" id="32"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СкладыТаблицаЗначенийСклад" id="33">
+									<DataPath>СкладыТаблицаЗначений.Склад</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<TextEdit>false</TextEdit>
+									<ContextMenu name="СкладыТаблицаЗначенийСкладКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="СкладыТаблицаЗначенийСкладРасширеннаяПодсказка" id="35"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНоменклатура" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номенклатура</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаНоменклатураРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНоменклатураКоманды" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа номенклатура команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа номенклатура команды</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНоменклатураКомандыРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<Button name="ВыборНоменклатуры" id="44">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВыборНоменклатуры</CommandName>
+							<ExtendedTooltip name="ВыборНоменклатурыРасширеннаяПодсказка" id="45"/>
+						</Button>
+						<Button name="ОчиститьСписокНоменклатуры" id="46">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОчиститьСписокНоменклатуры</CommandName>
+							<ExtendedTooltip name="ОчиститьСписокНоменклатурыРасширеннаяПодсказка" id="47"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНоменклатураТаблица" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа номенклатура таблица</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа номенклатура таблица</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНоменклатураТаблицаРасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<Table name="НоменклатураТаблицаЗначений" id="50">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<HeightInTableRows>4</HeightInTableRows>
+							<HeightControlVariant>UseHeightInTableRows</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>НоменклатураТаблицаЗначений</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НоменклатураТаблицаЗначенийКонтекстноеМеню" id="51"/>
+							<AutoCommandBar name="НоменклатураТаблицаЗначенийКоманднаяПанель" id="52"/>
+							<ExtendedTooltip name="НоменклатураТаблицаЗначенийРасширеннаяПодсказка" id="53"/>
+							<SearchStringAddition name="НоменклатураТаблицаЗначенийСтрокаПоиска" id="54">
+								<AdditionSource>
+									<Item>НоменклатураТаблицаЗначений</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НоменклатураТаблицаЗначенийСтрокаПоискаКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="НоменклатураТаблицаЗначенийСтрокаПоискаРасширеннаяПодсказка" id="56"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НоменклатураТаблицаЗначенийСостояниеПросмотра" id="57">
+								<AdditionSource>
+									<Item>НоменклатураТаблицаЗначений</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НоменклатураТаблицаЗначенийСостояниеПросмотраКонтекстноеМеню" id="58"/>
+								<ExtendedTooltip name="НоменклатураТаблицаЗначенийСостояниеПросмотраРасширеннаяПодсказка" id="59"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НоменклатураТаблицаЗначенийУправлениеПоиском" id="60">
+								<AdditionSource>
+									<Item>НоменклатураТаблицаЗначений</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НоменклатураТаблицаЗначенийУправлениеПоискомКонтекстноеМеню" id="61"/>
+								<ExtendedTooltip name="НоменклатураТаблицаЗначенийУправлениеПоискомРасширеннаяПодсказка" id="62"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="НоменклатураТаблицаЗначенийНоменклатура" id="63">
+									<DataPath>НоменклатураТаблицаЗначений.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<TextEdit>false</TextEdit>
+									<ContextMenu name="НоменклатураТаблицаЗначенийНоменклатураКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="НоменклатураТаблицаЗначенийНоменклатураРасширеннаяПодсказка" id="65"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ДанныеFTP" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные FTP</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные FTP</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ДанныеFTPРасширеннаяПодсказка" id="67"/>
+			<ChildItems>
+				<UsualGroup name="ДанныеFTPСервер" id="80">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные FTPСервер</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные FTPСервер</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ДанныеFTPСерверРасширеннаяПодсказка" id="81"/>
+					<ChildItems>
+						<InputField name="СерверАдрес" id="68">
+							<DataPath>СерверАдрес</DataPath>
+							<Width>30</Width>
+							<ContextMenu name="СерверАдресКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="СерверАдресРасширеннаяПодсказка" id="70"/>
+						</InputField>
+						<InputField name="СерверПорт" id="71">
+							<DataPath>СерверПорт</DataPath>
+							<Width>5</Width>
+							<ContextMenu name="СерверПортКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="СерверПортРасширеннаяПодсказка" id="73"/>
+						</InputField>
+						<CheckBoxField name="СерверСоединениеFTPS" id="104">
+							<DataPath>СерверСоединениеFTPS</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СерверСоединениеFTPSКонтекстноеМеню" id="105"/>
+							<ExtendedTooltip name="СерверСоединениеFTPSРасширеннаяПодсказка" id="106"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ДанныеFTPЛогинПароль" id="82">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные FTPЛогин пароль</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные FTPЛогин пароль</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ДанныеFTPЛогинПарольРасширеннаяПодсказка" id="83"/>
+					<ChildItems>
+						<InputField name="СерверЛогин" id="74">
+							<DataPath>СерверЛогин</DataPath>
+							<Width>15</Width>
+							<ContextMenu name="СерверЛогинКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="СерверЛогинРасширеннаяПодсказка" id="76"/>
+						</InputField>
+						<InputField name="СерверПароль" id="77">
+							<DataPath>СерверПароль</DataPath>
+							<Width>15</Width>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="СерверПарольКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="СерверПарольРасширеннаяПодсказка" id="79"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаТаймер" id="84">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймер запуска</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа таймер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаТаймерРасширеннаяПодсказка" id="85"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаТаймерЗначение" id="98">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа таймер значение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа таймер значение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТаймерЗначениеРасширеннаяПодсказка" id="99"/>
+					<ChildItems>
+						<InputField name="ЗначениеТаймера" id="86">
+							<DataPath>ЗначениеТаймера</DataPath>
+							<ContextMenu name="ЗначениеТаймераКонтекстноеМеню" id="87"/>
+							<ExtendedTooltip name="ЗначениеТаймераРасширеннаяПодсказка" id="88"/>
+						</InputField>
+						<LabelDecoration name="ДекорацияСекунд" id="89">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>секунд</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияСекундКонтекстноеМеню" id="90"/>
+							<ExtendedTooltip name="ДекорацияСекундРасширеннаяПодсказка" id="91"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТаймерКоманды" id="96">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа таймер команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа таймер команды</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТаймерКомандыРасширеннаяПодсказка" id="97"/>
+					<ChildItems>
+						<Button name="ЗапуститьТаймер" id="92">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗапуститьТаймер</CommandName>
+							<ExtendedTooltip name="ЗапуститьТаймерРасширеннаяПодсказка" id="93"/>
+						</Button>
+						<Button name="ОстановитьТаймер" id="94">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ОстановитьТаймер</CommandName>
+							<ExtendedTooltip name="ОстановитьТаймерРасширеннаяПодсказка" id="95"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ВыгрузкаНаСайтУФ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СерверАдрес" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес сервера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>512</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>СерверАдрес</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ВидыЦен" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды цен</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>255</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗначениеТаймера" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запускать по таймеру через каждые</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>ЗначениеТаймера</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СерверЛогин" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>512</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>СерверЛогин</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СерверПароль" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>512</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>СерверПароль</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СерверПорт" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>СерверПорт</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Свойство" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойство</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ChartOfCharacteristicTypesRef.СвойстваОбъектов</v8:Type>
+			</Type>
+			<Save>
+				<Field>Свойство</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="РезультатВыбораЦен" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат выбора цен</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Save>
+				<Field>РезультатВыбораЦен</Field>
+			</Save>
+			<Columns>
+				<Column name="ВидЦены" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид цены</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТипыЦенНоменклатуры</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="НоменклатураТаблицаЗначений" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура таблица значений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СкладыТаблицаЗначений" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склады таблица значений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Save>
+				<Field>СкладыТаблицаЗначений</Field>
+			</Save>
+			<Columns>
+				<Column name="Склад" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СохранитьВФайл" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить в файл</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>СохранитьВФайл</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СерверСоединениеFTPS" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соединение FTPS</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>СерверСоединениеFTPS</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыборСкладов" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбор складов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбор складов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыборСкладов</Action>
+		</Command>
+		<Command name="ОчиститьСписокСкладов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить список</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить список складов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьСписокСкладов</Action>
+		</Command>
+		<Command name="УстановитьСвойство" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить свойство</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить свойство</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСвойство</Action>
+		</Command>
+		<Command name="ВыборНоменклатуры" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбор номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбор номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыборНоменклатуры</Action>
+		</Command>
+		<Command name="ОчиститьСписокНоменклатуры" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить список</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить список номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьСписокНоменклатуры</Action>
+		</Command>
+		<Command name="ЗапуститьТаймер" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить таймер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить таймер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьТаймер</Action>
+		</Command>
+		<Command name="ОстановитьТаймер" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановить таймер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановить таймер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОстановитьТаймер</Action>
+		</Command>
+		<Command name="ВыгрузитьДанные" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьДанные</Action>
+		</Command>
+	</Commands>
+</Form>

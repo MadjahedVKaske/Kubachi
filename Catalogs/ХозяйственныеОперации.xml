@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="f254cd6a-43fb-429c-ac06-ef874292dde3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ХозяйственныеОперации" category="Object">
+				<xr:TypeId>6d951d0d-c6e0-4ce4-be12-aeb4a6014a77</xr:TypeId>
+				<xr:ValueId>a8906175-dfaa-4d9a-aead-89b70dfbec27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ХозяйственныеОперации" category="Ref">
+				<xr:TypeId>097cb14f-6105-493d-bf9d-8f24bee78f26</xr:TypeId>
+				<xr:ValueId>c731d5e0-b5b4-4e45-9b8b-fc4958ecdab7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ХозяйственныеОперации" category="Selection">
+				<xr:TypeId>2f779875-9823-43df-ac40-209063ce39b6</xr:TypeId>
+				<xr:ValueId>a428d1bd-5ef3-49f4-b4ec-8ff2ee3f57be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ХозяйственныеОперации" category="List">
+				<xr:TypeId>4278c92a-27f9-4621-a608-692952648665</xr:TypeId>
+				<xr:ValueId>b6ebf5e2-63f0-453e-be9a-2f731bc25323</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ХозяйственныеОперации" category="Manager">
+				<xr:TypeId>053c1647-9de6-4770-aeab-535971776f47</xr:TypeId>
+				<xr:ValueId>1da77fc5-307c-46af-bb20-cfaa0501cdbf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХозяйственныеОперации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f474fae9-eb8b-4649-adfd-0674deb077a1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
