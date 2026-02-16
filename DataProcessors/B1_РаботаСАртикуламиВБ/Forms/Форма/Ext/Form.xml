@@ -86,13 +86,6 @@
 			<EnableDrag>true</EnableDrag>
 			<DataPath>ТаблицаАртикулов</DataPath>
 			<TitleLocation>None</TitleLocation>
-			<RowFilter>
-				<xr:Common>
-					<xr:Expression/>
-					<xr:ViewMode>Normal</xr:ViewMode>
-					<xr:UserSettingID>7b72cf0b-67c3-4e1c-b948-f62fcf4a42b9</xr:UserSettingID>
-				</xr:Common>
-			</RowFilter>
 			<ContextMenu name="ТаблицаАртикуловКонтекстноеМеню" id="21"/>
 			<AutoCommandBar name="ТаблицаАртикуловКоманднаяПанель" id="22"/>
 			<ExtendedTooltip name="ТаблицаАртикуловРасширеннаяПодсказка" id="23"/>
