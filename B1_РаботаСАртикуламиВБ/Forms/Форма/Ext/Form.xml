@@ -12,13 +12,11 @@
 				<CommandName>Form.Command.Сохранить</CommandName>
 				<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="4"/>
 			</Button>
-			<Button name="ОчиститьВыделенные" id="5">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ОчиститьВыделенные</CommandName>
-				<ExtendedTooltip name="ОчиститьВыделенныеРасширеннаяПодсказка" id="6"/>
-			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаФильтр" id="10">
 			<Title>
@@ -345,21 +343,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Сохранить</Action>
-		</Command>
-		<Command name="ОчиститьВыделенные" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Очистить выделенные</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Очистить артикулы ВБ у выделенных строк</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОчиститьВыделенные</Action>
 		</Command>
 	</Commands>
 </Form>
