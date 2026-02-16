@@ -2322,7 +2322,7 @@
 														<HorizontalStretch>false</HorizontalStretch>
 														<VerticalStretch>false</VerticalStretch>
 														<ValuesPicture>
-															<xr:Abs>ValuesPicture.png</xr:Abs>
+															<xr:Ref>CommonPicture.СостоянияДокументаУ</xr:Ref>
 															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</ValuesPicture>
 														<ContextMenu name="НовыеХарактеристикиЕстьКартинкаКонтекстноеМеню" id="737"/>
